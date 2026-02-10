@@ -137,6 +137,23 @@ nav {
     margin-bottom: 1rem;
 }
 
+.features-section {
+    padding: 5rem 10%;
+}
+
+.features-title {
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: var(--text);
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
 /* Installation Section */
 .install-section {
     background-color: var(--secondary);
@@ -177,19 +194,3 @@ footer a {
     }
 }
 
-.features-section {
-    padding: 5rem 10%;
-}
-
-.features-title {
-    font-size: 2.2rem;
-    margin-bottom: 3rem;
-    text-align: left;
-    color: var(--text);
-}
-
-.features {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-}
