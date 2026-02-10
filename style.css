@@ -1,5 +1,5 @@
 :root {
-    --primary: #1793d1; /* Arch Blue */
+    --primary: #1793d1;
     --secondary: #232323;
     --accent: #00f2ff;
     --text: #f0f0f0;
@@ -12,6 +12,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -79,6 +83,7 @@ nav {
     margin-bottom: 1rem;
     background: linear-gradient(45deg, var(--primary), var(--accent));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -150,6 +155,7 @@ nav {
     margin: 2rem auto;
     overflow-x: auto;
     border: 1px solid #444;
+    white-space: pre-wrap;
 }
 
 footer {
